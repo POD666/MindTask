@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MindTask.iml" filepath="$PROJECT_DIR$/MindTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/extras/android/support/v7/appcompat/appcompat.iml" filepath="$PROJECT_DIR$/../../sdk/extras/android/support/v7/appcompat/appcompat.iml" />
+    </modules>
+  </component>
+</project>
+

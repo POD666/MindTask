@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mind Task</string>
+
+    <string name="btn_top">Top</string>
+    <string name="btn_new">New</string>
+    <string name="btn_trash">Trash</string>
+    <string name="btn_random">Random</string>
+
+    <string name="quit">quit?</string>
+    <string name="really_quit">really_quit?</string>
+
+    <string name="skip">skip?</string>
+    <string name="really_skip">really skip?</string>
+
+    <string name="login">login</string>
+    <string name="login_now">login now?</string>
+
+    <string name="error">login</string>
+    <string name="error_authorization">authorization fail!</string>
+
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>

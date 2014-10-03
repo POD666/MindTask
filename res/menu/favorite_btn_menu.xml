@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/action_add_favorite"
+            android:orderInCategory="100"
+            hmkcode:showAsAction="always"
+            android:showAsAction="always"
+            android:icon="@drawable/btn_favorite_false"
+            android:title="Add to favorite"/>
+    <item
+            android:id="@+id/action_skip_task"
+            android:orderInCategory="100"
+            hmkcode:showAsAction="always"
+            android:showAsAction="always"
+            android:icon="@drawable/btn_skip_task"
+            android:title="Skip task"/>
+
+</menu>

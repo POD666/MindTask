@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:padding="15dp">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TaskMarkVoteDown"
+                android:background="@drawable/rating_dislike"
+                android:contentDescription="VoteDown"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="113      546"
+                android:id="@+id/TaskMark"
+                />
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TaskMarkVoteUp"
+                android:background="@drawable/rating_like"
+                android:contentDescription="VoteUp"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Answer:"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/linearLayout" android:layout_alignParentLeft="true"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TaskAnswer"
+            android:layout_below="@+id/textView2"
+            android:layout_toLeftOf="@+id/TaskUseKey"
+            android:inputType="textShortMessage"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Key"
+            android:id="@+id/TaskUseKey"
+            android:layout_gravity="right|top"
+            android:layout_below="@+id/TaskTryAnswer"
+            android:layout_alignParentRight="true"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try"
+            android:id="@+id/TaskTryAnswer"
+            android:layout_gravity="bottom|right"
+            android:layout_below="@+id/linearLayout" android:layout_toRightOf="@+id/TaskAnswer"
+            android:layout_alignRight="@+id/TaskUseKey"/>
+</RelativeLayout>

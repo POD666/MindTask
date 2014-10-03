@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.thydetefs.mindtask.controls.CustomDrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <com.thydetefs.mindtask.controls.ControlDashboardLayoutItem
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button android:id="@+id/home_btn_new"
+                style="@style/DashboardButton"
+                android:text="@string/btn_new"
+                android:drawableTop="@drawable/btn_new" />
+
+            <Button android:id="@+id/home_btn_best"
+                style="@style/DashboardButton"
+                android:text="@string/btn_top"
+                android:drawableTop="@drawable/btn_top" />
+
+            <Button android:id="@+id/home_btn_random"
+                style="@style/DashboardButton"
+                android:text="@string/btn_random"
+                android:drawableTop="@drawable/btn_random" />
+
+            <Button android:id="@+id/home_btn_favorite"
+                style="@style/DashboardButton"
+                android:text="Favorite"
+                android:drawableTop="@drawable/btn_favorite" />
+        </com.thydetefs.mindtask.controls.ControlDashboardLayoutItem>
+
+    </FrameLayout>
+
+    <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="#111"
+            android:clickable="false"/>
+
+</com.thydetefs.mindtask.controls.CustomDrawerLayout>
+
